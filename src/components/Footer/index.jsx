@@ -9,7 +9,8 @@ const FooterEstilizado = styled.footer`
   justify-content: center;
   h2 {
     color: white;
-    font-size: 16px;
+    font-size: 18px;
+    font-weight: 400;
   }
   img {
     margin-left: 10px;
