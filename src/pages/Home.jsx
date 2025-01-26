@@ -1,7 +1,8 @@
+import Banner from "components/Banner";
 import Footer from "components/Footer";
 import Header from "components/Header";
-import Banner from "components/Banner";
 import HeroSection from "components/HeroSection";
+import SectionEquipes from "../components/SectionEquipes";
 
 const Home = () => {
   return (
@@ -9,13 +10,7 @@ const Home = () => {
       <Header />
       <Banner />
       <HeroSection />
-      <HeroSection />
-      <HeroSection />
-      <HeroSection />
-      <HeroSection />
-      <HeroSection />
-      <HeroSection />
-      <HeroSection />
+      <SectionEquipes />
       <Footer />
     </>
   );
