@@ -7,13 +7,23 @@ const TituloH1Estilizado = styled.h1`
   font-weight: 500;
   line-height: 1;
   margin: 0;
+  position: relative;
+  &:first-of-type::before {
+    content: "";
+    position: absolute;
+    top: -10px;
+    left: 0;
+    width: 50px;
+    height: 2px;
+    background-color: #212121;
+  }
 `;
 const TituloH3Estilizado = styled.h3`
   font-family: "Poppins";
   color: #212121;
   font-size: 22px;
   font-weight: 300;
-  margin-top: 10px;
+  margin-top: 4px;
   line-height: 1.4;
 `;
 

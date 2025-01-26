@@ -9,6 +9,13 @@ const Home = () => {
       <Header />
       <Banner />
       <HeroSection />
+      <HeroSection />
+      <HeroSection />
+      <HeroSection />
+      <HeroSection />
+      <HeroSection />
+      <HeroSection />
+      <HeroSection />
       <Footer />
     </>
   );
