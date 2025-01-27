@@ -77,20 +77,12 @@ const CardFooter = styled.div`
     color: #007bff;
     cursor: pointer;
     transition: color 0.2s ease;
+    display: flex;
+    align-items: center;
+    gap: 8px;
 
     &:hover {
       color: #0056b3;
-    }
-  }
-
-  .heart-icon {
-    color: #d11919;
-    font-size: 18px;
-    cursor: pointer;
-    transition: transform 0.2s ease;
-
-    &:hover {
-      transform: scale(1.2);
     }
   }
 `;
@@ -157,7 +149,7 @@ const CardTime = () => {
           <h3>{time.nome}</h3>
           <CardFooter>
             <button>
-              Saiba mais <IoIosArrowRoundForward />
+              Saiba mais <IoIosArrowRoundForward size={20} />
             </button>
           </CardFooter>
         </CardEstilizado>
