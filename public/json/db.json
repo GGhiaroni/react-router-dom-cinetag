@@ -1382,19 +1382,6 @@
     "principal_rival": "Colo-Colo"
   },
   {
-    "id": 95,
-    "nome": "Universidad Catolica",
-    "país": "Chile",
-    "cidade": "Santiago",
-    "estadio": "Estadio San Carlos de Apoquindo",
-    "apelido": "La Franja",
-    "numero_aproximado_de_torcedores": 5000000,
-    "numero_de_titulos": 16,
-    "titulos": ["Campeonato Chileno (16)"],
-    "foto_escudo": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/ca/Escudo_Club_Deportivo_Universidad_Cat%C3%B3lica.svg/1200px-Escudo_Club_Deportivo_Universidad_Cat%C3%B3lica.svg.png",
-    "principal_rival": "Universidad de Chile"
-  },
-  {
     "id": 98,
     "nome": "Club Brugge",
     "país": "Bélgica",
