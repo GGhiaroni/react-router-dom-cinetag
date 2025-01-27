@@ -108,11 +108,16 @@ const CardTime = () => {
   }, []);
 
   const toggleFavorito = (id) => {
-    if (favoritos.includes(id)) {
-      setFavoritos(favoritos.filter((fav) => fav !== id));
-    } else {
-      setFavoritos([...favoritos, id]);
-    }
+    const novosTimes = times.map((time) => {
+      if (time.id === id) {
+        return {
+          ...time,
+          favorito: !time.favorito,
+        };
+      }
+      return time;
+    });
+    setTimes(novosTimes);
   };
 
   return (
