@@ -1,6 +1,7 @@
 import { useEffect, useState } from "react";
-import { FaHeart } from "react-icons/fa";
-import { IoIosArrowRoundForward } from "react-icons/io";
+import { FaRegHeart } from "react-icons/fa";
+import { IoIosArrowRoundForward, IoMdHeart } from "react-icons/io";
+
 import styled from "styled-components";
 
 const CardEstilizado = styled.div`
@@ -113,13 +114,11 @@ const CardTime = () => {
           <img src={time.foto_escudo} alt={`escudo ${time.nome}`} />
           <h3>{time.nome}</h3>
           <CardFooter>
-            <FaHeart
-              className="heart-icon"
-              onClick={() => toggleFavorito(time.id)}
-              style={{
-                color: favoritos.includes(time.id) ? "#cf2626" : "#ddd",
-              }}
-            />
+            {time.favorito ? (
+              <IoMdHeart size={22} />
+            ) : (
+              <FaRegHeart size={18} onClick={() => toggleFavorito(time.id)} />
+            )}
             <button>
               Saiba mais <IoIosArrowRoundForward />
             </button>
