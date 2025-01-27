@@ -19,6 +19,7 @@ const CardEstilizado = styled.div`
   overflow: hidden;
   transition: transform 0.2s ease, box-shadow 0.2s ease;
   cursor: pointer;
+  position: relative;
 
   &:hover {
     transform: translateY(-5px);
@@ -40,6 +41,21 @@ const CardEstilizado = styled.div`
     padding: 10px 0;
     background-color: #333;
     width: 100%;
+  }
+
+  .heart-icon {
+    position: absolute;
+    top: 10px; /* Ajusta a posição vertical */
+    right: 10px; /* Ajusta a posição horizontal */
+    color: #d11919;
+    font-size: 20px;
+    cursor: pointer;
+    transition: transform 0.2s ease, color 0.2s ease;
+
+    &:hover {
+      transform: scale(1.2);
+      color: #a10f0f;
+    }
   }
 `;
 
@@ -111,14 +127,35 @@ const CardTime = () => {
     <CardEstilizadoContainer>
       {times.map((time) => (
         <CardEstilizado key={time.id}>
+          {time.favorito ? (
+            <IoMdHeart
+              size={22}
+              style={{
+                position: "absolute",
+                top: "10px",
+                right: "10px",
+                cursor: "pointer",
+                color: "#d11919",
+                transition: "transform 0.2s ease, color 0.2s ease",
+              }}
+              onClick={() => toggleFavorito(time.id)}
+            />
+          ) : (
+            <FaRegHeart
+              size={18}
+              style={{
+                position: "absolute",
+                top: "10px",
+                right: "10px",
+                cursor: "pointer",
+                transition: "transform 0.2s ease, color 0.2s ease",
+              }}
+              onClick={() => toggleFavorito(time.id)}
+            />
+          )}
           <img src={time.foto_escudo} alt={`escudo ${time.nome}`} />
           <h3>{time.nome}</h3>
           <CardFooter>
-            {time.favorito ? (
-              <IoMdHeart size={22} />
-            ) : (
-              <FaRegHeart size={18} onClick={() => toggleFavorito(time.id)} />
-            )}
             <button>
               Saiba mais <IoIosArrowRoundForward />
             </button>
