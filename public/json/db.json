@@ -395,7 +395,7 @@
   },
   {
     "id": 25,
-    "nome": "Borussia Mönchengladbach",
+    "nome": "B. Mönchengladbach",
     "país": "Alemanha",
     "cidade": "Mönchengladbach",
     "estadio": "Borussia-Park",
@@ -1380,6 +1380,19 @@
     "titulos": ["Campeonato Chileno (18)", "Copa Sudamericana (1)"],
     "foto_escudo": "https://upload.wikimedia.org/wikipedia/pt/5/50/C.F._Universidad_de_Chile_logo.png",
     "principal_rival": "Colo-Colo"
+  },
+  {
+    "id": 95,
+    "nome": "Universidad Catolica",
+    "país": "Chile",
+    "cidade": "Santiago",
+    "estadio": "Estadio San Carlos de Apoquindo",
+    "apelido": "La Franja",
+    "numero_aproximado_de_torcedores": 5000000,
+    "numero_de_titulos": 16,
+    "titulos": ["Campeonato Chileno (16)"],
+    "foto_escudo": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/ca/Escudo_Club_Deportivo_Universidad_Cat%C3%B3lica.svg/1200px-Escudo_Club_Deportivo_Universidad_Cat%C3%B3lica.svg.png",
+    "principal_rival": "Universidad de Chile"
   },
   {
     "id": 98,
