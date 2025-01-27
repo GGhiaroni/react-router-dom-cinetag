@@ -17,7 +17,8 @@
       "EFL Cup (6)"
     ],
     "foto_escudo": "https://upload.wikimedia.org/wikipedia/en/7/7a/Manchester_United_FC_crest.svg",
-    "principal_rival": "Manchester City"
+    "principal_rival": "Manchester City",
+    "favorito": false
   },
   {
     "id": 2,
@@ -37,7 +38,8 @@
       "EFL Cup (9)"
     ],
     "foto_escudo": "https://upload.wikimedia.org/wikipedia/en/0/0c/Liverpool_FC.svg",
-    "principal_rival": "Manchester United"
+    "principal_rival": "Manchester United",
+    "favorito": false
   },
   {
     "id": 3,
@@ -55,7 +57,8 @@
       "Europa League (1)"
     ],
     "foto_escudo": "https://upload.wikimedia.org/wikipedia/en/5/53/Arsenal_FC.svg",
-    "principal_rival": "Tottenham Hotspur"
+    "principal_rival": "Tottenham Hotspur",
+    "favorito": false
   },
   {
     "id": 4,
@@ -75,7 +78,8 @@
       "EFL Cup (5)"
     ],
     "foto_escudo": "https://upload.wikimedia.org/wikipedia/en/c/cc/Chelsea_FC.svg",
-    "principal_rival": "Arsenal"
+    "principal_rival": "Arsenal",
+    "favorito": false
   },
   {
     "id": 5,
@@ -94,7 +98,8 @@
       "FIFA Club World Cup (1)"
     ],
     "foto_escudo": "https://upload.wikimedia.org/wikipedia/en/thumb/e/eb/Manchester_City_FC_badge.svg/1200px-Manchester_City_FC_badge.svg.png",
-    "principal_rival": "Manchester United"
+    "principal_rival": "Manchester United",
+    "favorito": false
   },
   {
     "id": 6,
@@ -112,7 +117,8 @@
       "Europa League (2)"
     ],
     "foto_escudo": "https://upload.wikimedia.org/wikipedia/en/b/b4/Tottenham_Hotspur.svg",
-    "principal_rival": "Arsenal"
+    "principal_rival": "Arsenal",
+    "favorito": false
   },
   {
     "id": 7,
@@ -130,7 +136,8 @@
       "Europa League (1)"
     ],
     "foto_escudo": "https://upload.wikimedia.org/wikipedia/en/7/7c/Everton_FC_logo.svg",
-    "principal_rival": "Liverpool"
+    "principal_rival": "Liverpool",
+    "favorito": false
   },
   {
     "id": 8,
@@ -148,7 +155,8 @@
       "Europa League (1)"
     ],
     "foto_escudo": "https://upload.wikimedia.org/wikipedia/pt/0/05/Leeds_United_Logo.png",
-    "principal_rival": "Manchester United"
+    "principal_rival": "Manchester United",
+    "favorito": false
   },
   {
     "id": 9,
@@ -166,7 +174,8 @@
       "EFL Cup (5)"
     ],
     "foto_escudo": "https://upload.wikimedia.org/wikipedia/pt/2/29/Aston_Villa_FC_2024_logo.png",
-    "principal_rival": "Birmingham City"
+    "principal_rival": "Birmingham City",
+    "favorito": false
   },
   {
     "id": 10,
@@ -184,7 +193,8 @@
       "Europa League (1)"
     ],
     "foto_escudo": "https://upload.wikimedia.org/wikipedia/en/5/56/Newcastle_United_Logo.svg",
-    "principal_rival": "Sunderland"
+    "principal_rival": "Sunderland",
+    "favorito": false
   },
   {
     "id": 11,
@@ -202,7 +212,8 @@
       "Champions League (2)"
     ],
     "foto_escudo": "https://upload.wikimedia.org/wikipedia/commons/5/51/Juventus_FC_2017_logo.png",
-    "principal_rival": "Torino"
+    "principal_rival": "Torino",
+    "favorito": false
   },
   {
     "id": 12,
@@ -220,7 +231,8 @@
       "Champions League (7)"
     ],
     "foto_escudo": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/17/AC_Milan.png/640px-AC_Milan.png",
-    "principal_rival": "Inter de Milão"
+    "principal_rival": "Inter de Milão",
+    "favorito": false
   },
   {
     "id": 13,
@@ -238,7 +250,8 @@
       "Champions League (3)"
     ],
     "foto_escudo": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/05/FC_Internazionale_Milano_2021.svg/1024px-FC_Internazionale_Milano_2021.svg.png",
-    "principal_rival": "AC Milan"
+    "principal_rival": "AC Milan",
+    "favorito": false
   },
   {
     "id": 14,
@@ -251,7 +264,8 @@
     "numero_de_titulos": 3,
     "titulos": ["Serie A (3)", "Coppa Italia (9)", "Supercoppa Italiana (2)"],
     "foto_escudo": "https://upload.wikimedia.org/wikipedia/en/thumb/f/f7/AS_Roma_logo_%282017%29.svg/165px-AS_Roma_logo_%282017%29.svg.png",
-    "principal_rival": "Lazio"
+    "principal_rival": "Lazio",
+    "favorito": false
   },
   {
     "id": 15,
@@ -264,7 +278,8 @@
     "numero_de_titulos": 3,
     "titulos": ["Serie A (2)", "Coppa Italia (6)", "Supercoppa Italiana (2)"],
     "foto_escudo": "https://upload.wikimedia.org/wikipedia/commons/b/ba/SSC_Napoli.svg",
-    "principal_rival": "Juventus"
+    "principal_rival": "Juventus",
+    "favorito": false
   },
   {
     "id": 16,
@@ -277,7 +292,8 @@
     "numero_de_titulos": 7,
     "titulos": ["Serie A (2)", "Coppa Italia (7)", "Supercoppa Italiana (3)"],
     "foto_escudo": "https://upload.wikimedia.org/wikipedia/pt/e/ed/SS_Lazio.png",
-    "principal_rival": "Roma"
+    "principal_rival": "Roma",
+    "favorito": false
   },
   {
     "id": 17,
@@ -290,7 +306,8 @@
     "numero_de_titulos": 8,
     "titulos": ["Serie A (2)", "Coppa Italia (6)", "Supercoppa Italiana (0)"],
     "foto_escudo": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8c/ACF_Fiorentina_-_logo_%28Italy%2C_2022%29.svg/640px-ACF_Fiorentina_-_logo_%28Italy%2C_2022%29.svg.png",
-    "principal_rival": "Juventus"
+    "principal_rival": "Juventus",
+    "favorito": false
   },
   {
     "id": 18,
@@ -303,7 +320,8 @@
     "numero_de_titulos": 7,
     "titulos": ["Serie A (7)", "Coppa Italia (5)", "Supercoppa Italiana (1)"],
     "foto_escudo": "https://upload.wikimedia.org/wikipedia/pt/2/2e/Torino_FC_logo.png",
-    "principal_rival": "Juventus"
+    "principal_rival": "Juventus",
+    "favorito": false
   },
   {
     "id": 19,
@@ -316,7 +334,8 @@
     "numero_de_titulos": 7,
     "titulos": ["Serie A (7)", "Coppa Italia (2)", "Supercoppa Italiana (0)"],
     "foto_escudo": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5b/Bologna_F.C._1909_logo.svg/640px-Bologna_F.C._1909_logo.svg.png",
-    "principal_rival": "Fiorentina"
+    "principal_rival": "Fiorentina",
+    "favorito": false
   },
   {
     "id": 20,
@@ -329,7 +348,8 @@
     "numero_de_titulos": 5,
     "titulos": ["Serie A (1)", "Coppa Italia (4)", "Supercoppa Italiana (1)"],
     "foto_escudo": "https://upload.wikimedia.org/wikipedia/en/d/d2/U.C._Sampdoria_logo.svg",
-    "principal_rival": "Genoa"
+    "principal_rival": "Genoa",
+    "favorito": false
   },
   {
     "id": 21,
@@ -347,7 +367,8 @@
       "Champions League (6)"
     ],
     "foto_escudo": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1b/FC_Bayern_M%C3%BCnchen_logo_%282017%29.svg/2048px-FC_Bayern_M%C3%BCnchen_logo_%282017%29.svg.png",
-    "principal_rival": "Borussia Dortmund"
+    "principal_rival": "Borussia Dortmund",
+    "favorito": false
   },
   {
     "id": 22,
@@ -365,7 +386,8 @@
       "Champions League (1)"
     ],
     "foto_escudo": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/67/Borussia_Dortmund_logo.svg/1200px-Borussia_Dortmund_logo.svg.png",
-    "principal_rival": "Bayern de Munique"
+    "principal_rival": "Bayern de Munique",
+    "favorito": false
   },
   {
     "id": 23,
@@ -378,7 +400,8 @@
     "numero_de_titulos": 7,
     "titulos": ["Bundesliga (7)", "DFB-Pokal (5)", "Supercopa da Alemanha (1)"],
     "foto_escudo": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6d/FC_Schalke_04_Logo.svg/2048px-FC_Schalke_04_Logo.svg.png",
-    "principal_rival": "Borussia Dortmund"
+    "principal_rival": "Borussia Dortmund",
+    "favorito": false
   },
   {
     "id": 24,
@@ -391,7 +414,8 @@
     "numero_de_titulos": 4,
     "titulos": ["DFB-Pokal (1)", "Supercopa da Alemanha (1)"],
     "foto_escudo": "https://upload.wikimedia.org/wikipedia/en/thumb/5/59/Bayer_04_Leverkusen_logo.svg/1200px-Bayer_04_Leverkusen_logo.svg.png",
-    "principal_rival": "Köln"
+    "principal_rival": "Köln",
+    "favorito": false
   },
   {
     "id": 25,
@@ -404,7 +428,8 @@
     "numero_de_titulos": 5,
     "titulos": ["Bundesliga (5)", "DFB-Pokal (3)", "Supercopa da Alemanha (1)"],
     "foto_escudo": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/81/Borussia_M%C3%B6nchengladbach_logo.svg/1200px-Borussia_M%C3%B6nchengladbach_logo.svg.png",
-    "principal_rival": "Köln"
+    "principal_rival": "Köln",
+    "favorito": false
   },
   {
     "id": 26,
@@ -417,7 +442,8 @@
     "numero_de_titulos": 6,
     "titulos": ["Bundesliga (6)", "DFB-Pokal (3)", "Champions League (1)"],
     "foto_escudo": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f7/Hamburger_SV_logo.svg/2560px-Hamburger_SV_logo.svg.png",
-    "principal_rival": "Werder Bremen"
+    "principal_rival": "Werder Bremen",
+    "favorito": false
   },
   {
     "id": 27,
@@ -430,7 +456,8 @@
     "numero_de_titulos": 6,
     "titulos": ["Bundesliga (4)", "DFB-Pokal (6)", "Supercopa da Alemanha (3)"],
     "foto_escudo": "https://upload.wikimedia.org/wikipedia/pt/d/d0/Werder_Bremen.png",
-    "principal_rival": "Hamburger SV"
+    "principal_rival": "Hamburger SV",
+    "favorito": false
   },
   {
     "id": 28,
@@ -443,7 +470,8 @@
     "numero_de_titulos": 5,
     "titulos": ["Bundesliga (5)", "DFB-Pokal (3)"],
     "foto_escudo": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/eb/VfB_Stuttgart_1893_Logo.svg/1200px-VfB_Stuttgart_1893_Logo.svg.png",
-    "principal_rival": "Bayer Leverkusen"
+    "principal_rival": "Bayer Leverkusen",
+    "favorito": false
   },
   {
     "id": 29,
@@ -456,7 +484,8 @@
     "numero_de_titulos": 5,
     "titulos": ["DFB-Pokal (5)", "Europa League (2)"],
     "foto_escudo": "https://upload.wikimedia.org/wikipedia/en/thumb/7/7e/Eintracht_Frankfurt_crest.svg/1200px-Eintracht_Frankfurt_crest.svg.png",
-    "principal_rival": "Wolfsburg"
+    "principal_rival": "Wolfsburg",
+    "favorito": false
   },
   {
     "id": 30,
@@ -469,7 +498,8 @@
     "numero_de_titulos": 2,
     "titulos": ["Bundesliga (1)", "DFB-Pokal (1)"],
     "foto_escudo": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/ce/VfL_Wolfsburg_Logo.svg/1200px-VfL_Wolfsburg_Logo.svg.png",
-    "principal_rival": "Eintracht Frankfurt"
+    "principal_rival": "Eintracht Frankfurt",
+    "favorito": false
   },
   {
     "id": 31,
@@ -482,7 +512,8 @@
     "numero_de_titulos": 34,
     "titulos": ["La Liga (34)", "Copa del Rey (19)", "Champions League (13)"],
     "foto_escudo": "https://upload.wikimedia.org/wikipedia/pt/9/98/Real_Madrid.png",
-    "principal_rival": "Barcelona"
+    "principal_rival": "Barcelona",
+    "favorito": false
   },
   {
     "id": 32,
@@ -495,7 +526,8 @@
     "numero_de_titulos": 27,
     "titulos": ["La Liga (26)", "Copa del Rey (31)", "Champions League (5)"],
     "foto_escudo": "https://upload.wikimedia.org/wikipedia/en/thumb/4/47/FC_Barcelona_%28crest%29.svg/2020px-FC_Barcelona_%28crest%29.svg.png",
-    "principal_rival": "Real Madrid"
+    "principal_rival": "Real Madrid",
+    "favorito": false
   },
   {
     "id": 33,
@@ -508,7 +540,8 @@
     "numero_de_titulos": 11,
     "titulos": ["La Liga (11)", "Copa del Rey (10)", "Champions League (3)"],
     "foto_escudo": "https://upload.wikimedia.org/wikipedia/pt/1/19/AtleticoMadrid2017.png",
-    "principal_rival": "Real Madrid"
+    "principal_rival": "Real Madrid",
+    "favorito": false
   },
   {
     "id": 34,
@@ -521,7 +554,8 @@
     "numero_de_titulos": 9,
     "titulos": ["La Liga (1)", "Copa del Rey (5)", "Europa League (6)"],
     "foto_escudo": "https://upload.wikimedia.org/wikipedia/pt/c/cd/Sevilla_cf.png",
-    "principal_rival": "Real Betis"
+    "principal_rival": "Real Betis",
+    "favorito": false
   },
   {
     "id": 35,
@@ -534,7 +568,8 @@
     "numero_de_titulos": 6,
     "titulos": ["La Liga (6)", "Copa del Rey (8)", "Champions League (0)"],
     "foto_escudo": "https://upload.wikimedia.org/wikipedia/pt/6/66/Valencia_Cf_Logo_original.png",
-    "principal_rival": "Levante"
+    "principal_rival": "Levante",
+    "favorito": false
   },
   {
     "id": 36,
@@ -547,7 +582,8 @@
     "numero_de_titulos": 2,
     "titulos": ["La Liga (2)", "Copa del Rey (3)"],
     "foto_escudo": "https://upload.wikimedia.org/wikipedia/en/thumb/f/f1/Real_Sociedad_logo.svg/1200px-Real_Sociedad_logo.svg.png",
-    "principal_rival": "Athletic Bilbao"
+    "principal_rival": "Athletic Bilbao",
+    "favorito": false
   },
   {
     "id": 37,
@@ -560,7 +596,8 @@
     "numero_de_titulos": 8,
     "titulos": ["La Liga (8)", "Copa del Rey (23)"],
     "foto_escudo": "https://upload.wikimedia.org/wikipedia/pt/9/90/Athletic_Club_de_Bilbao.png",
-    "principal_rival": "Real Sociedad"
+    "principal_rival": "Real Sociedad",
+    "favorito": false
   },
   {
     "id": 38,
@@ -573,7 +610,8 @@
     "numero_de_titulos": 6,
     "titulos": ["La Liga (1)", "Copa del Rey (3)"],
     "foto_escudo": "https://upload.wikimedia.org/wikipedia/pt/1/17/Real_Betis_Balompi%C3%A9.png",
-    "principal_rival": "Sevilla FC"
+    "principal_rival": "Sevilla FC",
+    "favorito": false
   },
   {
     "id": 39,
@@ -586,7 +624,8 @@
     "numero_de_titulos": 4,
     "titulos": ["La Liga (0)", "Copa del Rey (1)", "Europa League (1)"],
     "foto_escudo": "https://upload.wikimedia.org/wikipedia/pt/thumb/7/70/Villarreal_CF_logo.svg/1200px-Villarreal_CF_logo.svg.png",
-    "principal_rival": "Valencia CF"
+    "principal_rival": "Valencia CF",
+    "favorito": false
   },
   {
     "id": 40,
@@ -599,7 +638,8 @@
     "numero_de_titulos": 4,
     "titulos": ["La Liga (0)", "Copa del Rey (4)"],
     "foto_escudo": "https://upload.wikimedia.org/wikipedia/pt/2/29/Rcd_espanyol_logo.png",
-    "principal_rival": "Barcelona"
+    "principal_rival": "Barcelona",
+    "favorito": false
   },
   {
     "id": 41,
@@ -616,7 +656,8 @@
       "Supertaça de Portugal (9)"
     ],
     "foto_escudo": "https://upload.wikimedia.org/wikipedia/en/thumb/e/e1/Sporting_Clube_de_Portugal_%28Logo%29.svg/1200px-Sporting_Clube_de_Portugal_%28Logo%29.svg.png",
-    "principal_rival": "SL Benfica"
+    "principal_rival": "SL Benfica",
+    "favorito": false
   },
   {
     "id": 42,
@@ -633,7 +674,8 @@
       "Taça da Liga (7)"
     ],
     "foto_escudo": "https://upload.wikimedia.org/wikipedia/sco/thumb/a/a2/SL_Benfica_logo.svg/1200px-SL_Benfica_logo.svg.png",
-    "principal_rival": "Sporting CP"
+    "principal_rival": "Sporting CP",
+    "favorito": false
   },
   {
     "id": 43,
@@ -650,7 +692,8 @@
       "Taça da Liga (4)"
     ],
     "foto_escudo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTfb_Lfd4a2EEn8JRG-R6jXwUnqkXLJroWw0A&s",
-    "principal_rival": "SL Benfica"
+    "principal_rival": "SL Benfica",
+    "favorito": false
   },
   {
     "id": 44,
@@ -667,7 +710,8 @@
       "Supertaça de Portugal (1)"
     ],
     "foto_escudo": "https://upload.wikimedia.org/wikipedia/pt/5/5c/Logo_Boavista_FC.png",
-    "principal_rival": "FC Porto"
+    "principal_rival": "FC Porto",
+    "favorito": false
   },
   {
     "id": 45,
@@ -680,7 +724,8 @@
     "numero_de_titulos": 8,
     "titulos": ["Taça de Portugal (2)", "Supertaça de Portugal (1)"],
     "foto_escudo": "https://upload.wikimedia.org/wikipedia/pt/b/b3/VitoriaGuimaraes.png",
-    "principal_rival": "Sporting CP"
+    "principal_rival": "Sporting CP",
+    "favorito": false
   },
   {
     "id": 46,
@@ -693,7 +738,8 @@
     "numero_de_titulos": 10,
     "titulos": ["Taça de Portugal (1)", "Supertaça de Portugal (1)"],
     "foto_escudo": "https://upload.wikimedia.org/wikipedia/pt/f/f9/150px-Sporting_Clube_Braga.png",
-    "principal_rival": "Vitória SC"
+    "principal_rival": "Vitória SC",
+    "favorito": false
   },
   {
     "id": 47,
@@ -711,7 +757,8 @@
       "Trophée des Champions (10)"
     ],
     "foto_escudo": "https://upload.wikimedia.org/wikipedia/pt/d/d2/Logo_PSG.png",
-    "principal_rival": "Olympique de Marseille"
+    "principal_rival": "Olympique de Marseille",
+    "favorito": false
   },
   {
     "id": 48,
@@ -729,7 +776,8 @@
       "UEFA Champions League (1)"
     ],
     "foto_escudo": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d8/Olympique_Marseille_logo.svg/1582px-Olympique_Marseille_logo.svg.png",
-    "principal_rival": "Paris Saint-Germain"
+    "principal_rival": "Paris Saint-Germain",
+    "favorito": false
   },
   {
     "id": 49,
@@ -746,7 +794,8 @@
       "Trophée des Champions (1)"
     ],
     "foto_escudo": "https://upload.wikimedia.org/wikipedia/it/5/52/AS_Saint-%C3%89tienne_logo_2022.png",
-    "principal_rival": "Olympique Lyonnais"
+    "principal_rival": "Olympique Lyonnais",
+    "favorito": false
   },
   {
     "id": 50,
@@ -763,7 +812,8 @@
       "Trophée des Champions (8)"
     ],
     "foto_escudo": "https://upload.wikimedia.org/wikipedia/pt/6/6d/Olympique_lyonnais.png",
-    "principal_rival": "AS Saint-Étienne"
+    "principal_rival": "AS Saint-Étienne",
+    "favorito": false
   },
   {
     "id": 51,
@@ -780,7 +830,8 @@
       "Trophée des Champions (1)"
     ],
     "foto_escudo": "https://upload.wikimedia.org/wikipedia/en/thumb/c/cf/LogoASMonacoFC2021.svg/1200px-LogoASMonacoFC2021.svg.png",
-    "principal_rival": "Nice"
+    "principal_rival": "Nice",
+    "favorito": false
   },
   {
     "id": 52,
@@ -793,7 +844,8 @@
     "numero_de_titulos": 10,
     "titulos": ["Ligue 1 (6)", "Coupe de France (4)"],
     "foto_escudo": "https://upload.wikimedia.org/wikipedia/pt/f/f3/Girondins_Bordeaux.png",
-    "principal_rival": "Paris Saint-Germain"
+    "principal_rival": "Paris Saint-Germain",
+    "favorito": false
   },
   {
     "id": 53,
@@ -806,7 +858,8 @@
     "numero_de_titulos": 6,
     "titulos": ["Ligue 1 (4)", "Coupe de France (6)"],
     "foto_escudo": "https://upload.wikimedia.org/wikipedia/pt/7/74/Lille_osc.png",
-    "principal_rival": "Lens"
+    "principal_rival": "Lens",
+    "favorito": false
   },
   {
     "id": 54,
@@ -819,7 +872,8 @@
     "numero_de_titulos": 4,
     "titulos": ["Ligue 1 (4)"],
     "foto_escudo": "https://upload.wikimedia.org/wikipedia/en/thumb/2/2e/OGC_Nice_logo.svg/1200px-OGC_Nice_logo.svg.png",
-    "principal_rival": "Monaco"
+    "principal_rival": "Monaco",
+    "favorito": false
   },
   {
     "id": 55,
@@ -832,7 +886,8 @@
     "numero_de_titulos": 1,
     "titulos": ["Ligue 1 (1)"],
     "foto_escudo": "https://upload.wikimedia.org/wikipedia/pt/8/8d/RC_Lens.png",
-    "principal_rival": "Lille"
+    "principal_rival": "Lille",
+    "favorito": false
   },
   {
     "id": 56,
@@ -845,7 +900,8 @@
     "numero_de_titulos": 8,
     "titulos": ["Ligue 1 (8)", "Coupe de France (3)"],
     "foto_escudo": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5c/FC_Nantes_2019_logo.svg/1200px-FC_Nantes_2019_logo.svg.png",
-    "principal_rival": "Rennes"
+    "principal_rival": "Rennes",
+    "favorito": false
   },
   {
     "id": 57,
@@ -862,7 +918,8 @@
       "UEFA Champions League (4)"
     ],
     "foto_escudo": "https://upload.wikimedia.org/wikipedia/pt/thumb/b/b8/AFC_Ajax_Amsterdam.svg/1200px-AFC_Ajax_Amsterdam.svg.png",
-    "principal_rival": "Feyenoord"
+    "principal_rival": "Feyenoord",
+    "favorito": false
   },
   {
     "id": 58,
@@ -875,7 +932,8 @@
     "numero_de_titulos": 24,
     "titulos": ["Eredivisie (24)", "KNVB Cup (9)", "UEFA Champions League (1)"],
     "foto_escudo": "https://upload.wikimedia.org/wikipedia/pt/c/ca/PSV_Eindhoven_escudo.png",
-    "principal_rival": "Ajax"
+    "principal_rival": "Ajax",
+    "favorito": false
   },
   {
     "id": 59,
@@ -888,7 +946,8 @@
     "numero_de_titulos": 15,
     "titulos": ["Eredivisie (15)", "KNVB Cup (6)", "UEFA Champions League (1)"],
     "foto_escudo": "https://upload.wikimedia.org/wikipedia/pt/0/03/Feyenoord.png",
-    "principal_rival": "Ajax"
+    "principal_rival": "Ajax",
+    "favorito": false
   },
   {
     "id": 60,
@@ -901,7 +960,8 @@
     "numero_de_titulos": 6,
     "titulos": ["Eredivisie (2)", "KNVB Cup (2)"],
     "foto_escudo": "https://upload.wikimedia.org/wikipedia/pt/thumb/e/e0/AZ_Alkmaar.svg/1200px-AZ_Alkmaar.svg.png",
-    "principal_rival": "Ajax"
+    "principal_rival": "Ajax",
+    "favorito": false
   },
   {
     "id": 61,
@@ -914,7 +974,8 @@
     "numero_de_titulos": 2,
     "titulos": ["KNVB Cup (2)"],
     "foto_escudo": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/92/FC_Utrecht.png/711px-FC_Utrecht.png",
-    "principal_rival": "Ajax"
+    "principal_rival": "Ajax",
+    "favorito": false
   },
   {
     "id": 64,
@@ -931,7 +992,8 @@
       "Copa do Brasil (3)"
     ],
     "foto_escudo": "https://upload.wikimedia.org/wikipedia/commons/9/93/Flamengo-RJ_%28BRA%29.png",
-    "principal_rival": "Fluminense"
+    "principal_rival": "Fluminense",
+    "favorito": false
   },
   {
     "id": 65,
@@ -948,7 +1010,8 @@
       "Mundial de Clubes (1)"
     ],
     "foto_escudo": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6f/Brasao_do_Sao_Paulo_Futebol_Clube.svg/350px-Brasao_do_Sao_Paulo_Futebol_Clube.svg.png",
-    "principal_rival": "Palmeiras"
+    "principal_rival": "Palmeiras",
+    "favorito": false
   },
   {
     "id": 66,
@@ -965,7 +1028,8 @@
       "Copa do Brasil (4)"
     ],
     "foto_escudo": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/10/Palmeiras_logo.svg/2048px-Palmeiras_logo.svg.png",
-    "principal_rival": "Corinthians"
+    "principal_rival": "Corinthians",
+    "favorito": false
   },
   {
     "id": 67,
@@ -982,7 +1046,8 @@
       "Mundial de Clubes (2)"
     ],
     "foto_escudo": "https://upload.wikimedia.org/wikipedia/pt/b/b4/Corinthians_simbolo.png",
-    "principal_rival": "Palmeiras"
+    "principal_rival": "Palmeiras",
+    "favorito": false
   },
   {
     "id": 68,
@@ -999,7 +1064,8 @@
       "Copa do Brasil (1)"
     ],
     "foto_escudo": "https://upload.wikimedia.org/wikipedia/pt/a/ac/CRVascodaGama.png",
-    "principal_rival": "Flamengo"
+    "principal_rival": "Flamengo",
+    "favorito": false
   },
   {
     "id": 69,
@@ -1018,7 +1084,8 @@
       "Mundial de Clubes 1942"
     ],
     "foto_escudo": "https://upload.wikimedia.org/wikipedia/commons/a/ad/Fluminense_FC_escudo.png",
-    "principal_rival": "Flamengo"
+    "principal_rival": "Flamengo",
+    "favorito": false
   },
   {
     "id": 70,
@@ -1031,7 +1098,8 @@
     "numero_de_titulos": 14,
     "titulos": ["Campeonato Brasileiro (8)", "Copa Libertadores (3)"],
     "foto_escudo": "https://upload.wikimedia.org/wikipedia/commons/1/15/Santos_Logo.png",
-    "principal_rival": "Corinthians"
+    "principal_rival": "Corinthians",
+    "favorito": false
   },
   {
     "id": 71,
@@ -1048,7 +1116,8 @@
       "Copa do Brasil (5)"
     ],
     "foto_escudo": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/08/Gremio_logo.svg/1718px-Gremio_logo.svg.png",
-    "principal_rival": "Internacional"
+    "principal_rival": "Internacional",
+    "favorito": false
   },
   {
     "id": 72,
@@ -1065,7 +1134,8 @@
       "Copa do Brasil (1)"
     ],
     "foto_escudo": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f1/Escudo_do_Sport_Club_Internacional.svg/1200px-Escudo_do_Sport_Club_Internacional.svg.png",
-    "principal_rival": "Grêmio"
+    "principal_rival": "Grêmio",
+    "favorito": false
   },
   {
     "id": 73,
@@ -1082,7 +1152,8 @@
       "Copa do Brasil (2)"
     ],
     "foto_escudo": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/27/Clube_Atl%C3%A9tico_Mineiro_logo.svg/1810px-Clube_Atl%C3%A9tico_Mineiro_logo.svg.png",
-    "principal_rival": "Cruzeiro"
+    "principal_rival": "Cruzeiro",
+    "favorito": false
   },
   {
     "id": 74,
@@ -1099,7 +1170,8 @@
       "Copa do Brasil (6)"
     ],
     "foto_escudo": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/90/Cruzeiro_Esporte_Clube_%28logo%29.svg/1200px-Cruzeiro_Esporte_Clube_%28logo%29.svg.png",
-    "principal_rival": "Atlético Mineiro"
+    "principal_rival": "Atlético Mineiro",
+    "favorito": false
   },
   {
     "id": 75,
@@ -1116,7 +1188,8 @@
       "Copa Libertadores (1)"
     ],
     "foto_escudo": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/52/Botafogo_de_Futebol_e_Regatas_logo.svg/1816px-Botafogo_de_Futebol_e_Regatas_logo.svg.png",
-    "principal_rival": "Flamengo"
+    "principal_rival": "Flamengo",
+    "favorito": false
   },
   {
     "id": 76,
@@ -1129,7 +1202,8 @@
     "numero_de_titulos": 8,
     "titulos": ["Campeonato Brasileiro (1)", "Copa do Brasil (1)"],
     "foto_escudo": "https://upload.wikimedia.org/wikipedia/commons/4/43/Athletico_Paranaense_%28Logo_2019%29.svg",
-    "principal_rival": "Coritiba"
+    "principal_rival": "Coritiba",
+    "favorito": false
   },
   {
     "id": 77,
@@ -1142,7 +1216,8 @@
     "numero_de_titulos": 10,
     "titulos": ["Campeonato Brasileiro (2)", "Copa do Brasil (2)"],
     "foto_escudo": "https://upload.wikimedia.org/wikipedia/pt/9/90/ECBahia.png",
-    "principal_rival": "Vitória"
+    "principal_rival": "Vitória",
+    "favorito": false
   },
   {
     "id": 78,
@@ -1159,7 +1234,8 @@
       "Copa do Mundo de Clubes (1)"
     ],
     "foto_escudo": "https://upload.wikimedia.org/wikipedia/commons/c/c9/Boca_escudo.png",
-    "principal_rival": "River Plate"
+    "principal_rival": "River Plate",
+    "favorito": false
   },
   {
     "id": 79,
@@ -1176,7 +1252,8 @@
       "Copa do Mundo de Clubes (1)"
     ],
     "foto_escudo": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ac/Escudo_del_C_A_River_Plate.svg/1200px-Escudo_del_C_A_River_Plate.svg.png",
-    "principal_rival": "Boca Juniors"
+    "principal_rival": "Boca Juniors",
+    "favorito": false
   },
   {
     "id": 80,
@@ -1193,7 +1270,8 @@
       "Copa Intercontinental (2)"
     ],
     "foto_escudo": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/db/Escudo_del_Club_Atl%C3%A9tico_Independiente.svg/1200px-Escudo_del_Club_Atl%C3%A9tico_Independiente.svg.png",
-    "principal_rival": "Racing Club"
+    "principal_rival": "Racing Club",
+    "favorito": false
   },
   {
     "id": 81,
@@ -1206,7 +1284,8 @@
     "numero_de_titulos": 18,
     "titulos": ["Campeonato Argentino (18)", "Copa Libertadores (1)"],
     "foto_escudo": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/56/Escudo_de_Racing_Club_%282014%29.svg/1200px-Escudo_de_Racing_Club_%282014%29.svg.png",
-    "principal_rival": "Independiente"
+    "principal_rival": "Independiente",
+    "favorito": false
   },
   {
     "id": 82,
@@ -1219,7 +1298,8 @@
     "numero_de_titulos": 15,
     "titulos": ["Campeonato Argentino (15)", "Copa Libertadores (1)"],
     "foto_escudo": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/62/Escudo_del_Club_Atl%C3%A9tico_San_Lorenzo_de_Almagro.png/1200px-Escudo_del_Club_Atl%C3%A9tico_San_Lorenzo_de_Almagro.png",
-    "principal_rival": "Huracán"
+    "principal_rival": "Huracán",
+    "favorito": false
   },
   {
     "id": 83,
@@ -1232,7 +1312,8 @@
     "numero_de_titulos": 17,
     "titulos": ["Campeonato Argentino (10)", "Copa Libertadores (1)"],
     "foto_escudo": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/21/Escudo_del_Club_Atl%C3%A9tico_V%C3%A9lez_Sarsfield.svg/1200px-Escudo_del_Club_Atl%C3%A9tico_V%C3%A9lez_Sarsfield.svg.png",
-    "principal_rival": "Huracán"
+    "principal_rival": "Huracán",
+    "favorito": false
   },
   {
     "id": 84,
@@ -1245,7 +1326,8 @@
     "numero_de_titulos": 11,
     "titulos": ["Campeonato Argentino (6)", "Copa Libertadores (1)"],
     "foto_escudo": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fc/CA_Newell%E2%80%99s_Old_Boys.svg/477px-CA_Newell%E2%80%99s_Old_Boys.svg.png",
-    "principal_rival": "Rosario Central"
+    "principal_rival": "Rosario Central",
+    "favorito": false
   },
   {
     "id": 85,
@@ -1258,7 +1340,8 @@
     "numero_de_titulos": 5,
     "titulos": ["Campeonato Argentino (1)", "Copa Argentina (1)"],
     "foto_escudo": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/27/Escudo_del_Club_Central_C%C3%B3rdoba_de_Santiago_del_Estero.svg/1200px-Escudo_del_Club_Central_C%C3%B3rdoba_de_Santiago_del_Estero.svg.png",
-    "principal_rival": "Newell's Old Boys"
+    "principal_rival": "Newell's Old Boys",
+    "favorito": false
   },
   {
     "id": 86,
@@ -1271,7 +1354,8 @@
     "numero_de_titulos": 9,
     "titulos": ["Campeonato Argentino (5)", "Copa Libertadores (1)"],
     "foto_escudo": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/57/Asociacion_Atletica_Argentinos_Juniors.svg/1200px-Asociacion_Atletica_Argentinos_Juniors.svg.png",
-    "principal_rival": "Boca Juniors"
+    "principal_rival": "Boca Juniors",
+    "favorito": false
   },
   {
     "id": 87,
@@ -1284,7 +1368,8 @@
     "numero_de_titulos": 5,
     "titulos": ["Campeonato Argentino (1)"],
     "foto_escudo": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9b/Escudo_Talleres_2015.svg/1200px-Escudo_Talleres_2015.svg.png",
-    "principal_rival": "Belgrano"
+    "principal_rival": "Belgrano",
+    "favorito": false
   },
   {
     "id": 88,
@@ -1301,7 +1386,8 @@
       "Copa Intercontinental (3)"
     ],
     "foto_escudo": "https://upload.wikimedia.org/wikipedia/commons/8/82/Escudo_actual_bolso.png",
-    "principal_rival": "Peñarol"
+    "principal_rival": "Peñarol",
+    "favorito": false
   },
   {
     "id": 89,
@@ -1314,7 +1400,8 @@
     "numero_de_titulos": 61,
     "titulos": ["Campeonato Uruguaio (61)", "Copa Libertadores (5)"],
     "foto_escudo": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f2/Escudo_de_Pe%C3%B1arol.svg/1200px-Escudo_de_Pe%C3%B1arol.svg.png",
-    "principal_rival": "Nacional"
+    "principal_rival": "Nacional",
+    "favorito": false
   },
   {
     "id": 90,
@@ -1327,7 +1414,8 @@
     "numero_de_titulos": 9,
     "titulos": ["Campeonato Uruguaio (5)"],
     "foto_escudo": "https://upload.wikimedia.org/wikipedia/pt/5/5d/Defensor_Sporting.png",
-    "principal_rival": "Nacional"
+    "principal_rival": "Nacional",
+    "favorito": false
   },
   {
     "id": 91,
@@ -1340,7 +1428,8 @@
     "numero_de_titulos": 6,
     "titulos": ["Campeonato Uruguaio (6)"],
     "foto_escudo": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a6/Escudo_Danubio.svg/1200px-Escudo_Danubio.svg.png",
-    "principal_rival": "Peñarol"
+    "principal_rival": "Peñarol",
+    "favorito": false
   },
   {
     "id": 92,
@@ -1353,7 +1442,8 @@
     "numero_de_titulos": 2,
     "titulos": ["Campeonato Uruguaio (2)"],
     "foto_escudo": "https://upload.wikimedia.org/wikipedia/pt/b/b3/CA_River_Plate.png",
-    "principal_rival": "Defensor Sporting"
+    "principal_rival": "Defensor Sporting",
+    "favorito": false
   },
   {
     "id": 93,
@@ -1366,7 +1456,8 @@
     "numero_de_titulos": 32,
     "titulos": ["Campeonato Chileno (32)", "Copa Libertadores (1)"],
     "foto_escudo": "https://upload.wikimedia.org/wikipedia/pt/e/e8/Colo-Colo_Futbol_Club.png",
-    "principal_rival": "Universidad de Chile"
+    "principal_rival": "Universidad de Chile",
+    "favorito": false
   },
   {
     "id": 94,
@@ -1379,7 +1470,8 @@
     "numero_de_titulos": 18,
     "titulos": ["Campeonato Chileno (18)", "Copa Sudamericana (1)"],
     "foto_escudo": "https://upload.wikimedia.org/wikipedia/pt/5/50/C.F._Universidad_de_Chile_logo.png",
-    "principal_rival": "Colo-Colo"
+    "principal_rival": "Colo-Colo",
+    "favorito": false
   },
   {
     "id": 95,
@@ -1392,7 +1484,8 @@
     "numero_de_titulos": 16,
     "titulos": ["Campeonato Chileno (16)"],
     "foto_escudo": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/ca/Escudo_Club_Deportivo_Universidad_Cat%C3%B3lica.svg/1200px-Escudo_Club_Deportivo_Universidad_Cat%C3%B3lica.svg.png",
-    "principal_rival": "Universidad de Chile"
+    "principal_rival": "Universidad de Chile",
+    "favorito": false
   },
   {
     "id": 98,
@@ -1409,7 +1502,8 @@
       "Copa da UEFA (1)"
     ],
     "foto_escudo": "https://upload.wikimedia.org/wikipedia/pt/c/cc/Club_Brugge_KV_Logo.png",
-    "principal_rival": "RSC Anderlecht"
+    "principal_rival": "RSC Anderlecht",
+    "favorito": false
   },
   {
     "id": 102,
@@ -1426,7 +1520,8 @@
       "Liga dos Campeões (1)"
     ],
     "foto_escudo": "https://upload.wikimedia.org/wikipedia/pt/3/39/Celtic_FC_logo.png",
-    "principal_rival": "Rangers"
+    "principal_rival": "Rangers",
+    "favorito": false
   },
   {
     "id": 103,
@@ -1443,7 +1538,8 @@
       "Liga dos Campeões (1)"
     ],
     "foto_escudo": "https://upload.wikimedia.org/wikipedia/en/thumb/4/43/Rangers_FC.svg/1200px-Rangers_FC.svg.png",
-    "principal_rival": "Celtic"
+    "principal_rival": "Celtic",
+    "favorito": false
   },
   {
     "id": 105,
@@ -1456,7 +1552,8 @@
     "numero_de_titulos": 9,
     "titulos": ["Campeonato Escocês (4)", "Copa da Escócia (8)"],
     "foto_escudo": "https://upload.wikimedia.org/wikipedia/pt/f/f9/Heart_of_Midlothian_FC_logo.png",
-    "principal_rival": "Hibernian"
+    "principal_rival": "Hibernian",
+    "favorito": false
   },
   {
     "id": 107,
@@ -1473,7 +1570,8 @@
       "Liga Europa (1)"
     ],
     "foto_escudo": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/79/Galatasaray_4_Sterne_Logo.svg/1200px-Galatasaray_4_Sterne_Logo.svg.png",
-    "principal_rival": "Fenerbahçe"
+    "principal_rival": "Fenerbahçe",
+    "favorito": false
   },
   {
     "id": 108,
@@ -1486,7 +1584,8 @@
     "numero_de_titulos": 28,
     "titulos": ["Campeonato Turco (28)", "Copa da Turquia (6)"],
     "foto_escudo": "https://upload.wikimedia.org/wikipedia/pt/0/0a/Fenerbah%C3%A7e_SK_logo.png",
-    "principal_rival": "Galatasaray"
+    "principal_rival": "Galatasaray",
+    "favorito": false
   },
   {
     "id": 109,
@@ -1499,7 +1598,8 @@
     "numero_de_titulos": 16,
     "titulos": ["Campeonato Turco (16)", "Copa da Turquia (9)"],
     "foto_escudo": "https://upload.wikimedia.org/wikipedia/pt/3/3d/Besiktas_JK_logo.png",
-    "principal_rival": "Galatasaray"
+    "principal_rival": "Galatasaray",
+    "favorito": false
   },
   {
     "id": 110,
@@ -1512,7 +1612,8 @@
     "numero_de_titulos": 6,
     "titulos": ["Campeonato Turco (6)"],
     "foto_escudo": "https://upload.wikimedia.org/wikipedia/pt/7/70/Trabzonspor.png",
-    "principal_rival": "Fenerbahçe"
+    "principal_rival": "Fenerbahçe",
+    "favorito": false
   },
   {
     "id": 111,
@@ -1525,7 +1626,8 @@
     "numero_de_titulos": 1,
     "titulos": ["Campeonato Turco (1)"],
     "foto_escudo": "https://upload.wikimedia.org/wikipedia/pt/0/01/Bursaspor.png",
-    "principal_rival": "Fenerbahçe"
+    "principal_rival": "Fenerbahçe",
+    "favorito": false
   },
   {
     "id": 112,
@@ -1542,7 +1644,8 @@
       "Supercopa Checa (4)"
     ],
     "foto_escudo": "https://upload.wikimedia.org/wikipedia/commons/d/dd/AC-Sparta-LOGO2021.svg",
-    "principal_rival": "Slovan Liberec"
+    "principal_rival": "Slovan Liberec",
+    "favorito": false
   },
   {
     "id": 113,
@@ -1555,7 +1658,8 @@
     "numero_de_titulos": 13,
     "titulos": ["Campeonato Dinamarquês (13)", "Copa da Dinamarca (8)"],
     "foto_escudo": "https://upload.wikimedia.org/wikipedia/pt/e/ea/FC_K%C3%B8benhavn.png",
-    "principal_rival": "Brøndby IF"
+    "principal_rival": "Brøndby IF",
+    "favorito": false
   },
   {
     "id": 114,
@@ -1568,7 +1672,8 @@
     "numero_de_titulos": 20,
     "titulos": ["Campeonato Grego (20)", "Copa da Grécia (18)"],
     "foto_escudo": "https://upload.wikimedia.org/wikipedia/en/thumb/8/84/Panathinaikos_F.C._logo.svg/1200px-Panathinaikos_F.C._logo.svg.png",
-    "principal_rival": "Olympiacos"
+    "principal_rival": "Olympiacos",
+    "favorito": false
   },
   {
     "id": 115,
@@ -1581,7 +1686,8 @@
     "numero_de_titulos": 47,
     "titulos": ["Campeonato Grego (46)", "Copa da Grécia (28)"],
     "foto_escudo": "https://upload.wikimedia.org/wikipedia/pt/2/2e/Olympiakos.png",
-    "principal_rival": "Panathinaikos"
+    "principal_rival": "Panathinaikos",
+    "favorito": false
   },
   {
     "id": 116,
@@ -1594,7 +1700,8 @@
     "numero_de_titulos": 3,
     "titulos": ["Campeonato Grego (3)", "Copa da Grécia (4)"],
     "foto_escudo": "https://upload.wikimedia.org/wikipedia/pt/thumb/1/19/PAOK.svg/1200px-PAOK.svg.png",
-    "principal_rival": "Aris Thessaloniki"
+    "principal_rival": "Aris Thessaloniki",
+    "favorito": false
   },
   {
     "id": 117,
@@ -1607,7 +1714,8 @@
     "numero_de_titulos": 12,
     "titulos": ["Campeonato Grego (12)", "Copa da Grécia (6)"],
     "foto_escudo": "https://upload.wikimedia.org/wikipedia/pt/4/4a/AEK_Atenas.png",
-    "principal_rival": "Olympiacos"
+    "principal_rival": "Olympiacos",
+    "favorito": false
   },
   {
     "id": 118,
@@ -1620,7 +1728,8 @@
     "numero_de_titulos": 20,
     "titulos": ["Campeonato Croata (21)", "Copa da Croácia (15)"],
     "foto_escudo": "https://upload.wikimedia.org/wikipedia/pt/7/73/Dinamo_Zagreb_logo.png",
-    "principal_rival": "Hajduk Split"
+    "principal_rival": "Hajduk Split",
+    "favorito": false
   },
   {
     "id": 119,
@@ -1633,7 +1742,8 @@
     "numero_de_titulos": 6,
     "titulos": ["Campeonato Croata (6)", "Copa da Croácia (3)"],
     "foto_escudo": "https://upload.wikimedia.org/wikipedia/pt/c/c4/HNK_Hajduk_Split.png",
-    "principal_rival": "Dinamo Zagreb"
+    "principal_rival": "Dinamo Zagreb",
+    "favorito": false
   },
   {
     "id": 121,
@@ -1650,7 +1760,8 @@
       "Liga Europa (1)"
     ],
     "foto_escudo": "https://upload.wikimedia.org/wikipedia/pt/thumb/1/17/PFC_CSKA.svg/1200px-PFC_CSKA.svg.png",
-    "principal_rival": "Spartak Moscou"
+    "principal_rival": "Spartak Moscou",
+    "favorito": false
   },
   {
     "id": 122,
@@ -1667,7 +1778,8 @@
       "Supercopa da Rússia (2)"
     ],
     "foto_escudo": "https://upload.wikimedia.org/wikipedia/commons/9/91/FC_Spartak_Moscow_Logotype.png",
-    "principal_rival": "CSKA Moscou"
+    "principal_rival": "CSKA Moscou",
+    "favorito": false
   },
   {
     "id": 123,
@@ -1684,7 +1796,8 @@
       "Liga Europa (1)"
     ],
     "foto_escudo": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/96/FC_Zenit_1_star_2015_logo.svg/2560px-FC_Zenit_1_star_2015_logo.svg.png",
-    "principal_rival": "Spartak Moscou"
+    "principal_rival": "Spartak Moscou",
+    "favorito": false
   },
   {
     "id": 124,
@@ -1701,7 +1814,8 @@
       "Copa das Taças (1)"
     ],
     "foto_escudo": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/df/FC_Dynamo_Kyiv_logo.svg/1234px-FC_Dynamo_Kyiv_logo.svg.png",
-    "principal_rival": "Shakhtar Donetsk"
+    "principal_rival": "Shakhtar Donetsk",
+    "favorito": false
   },
   {
     "id": 125,
