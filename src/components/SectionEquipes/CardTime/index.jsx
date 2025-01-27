@@ -45,8 +45,8 @@ const CardEstilizado = styled.div`
 
   .heart-icon {
     position: absolute;
-    top: 10px; /* Ajusta a posição vertical */
-    right: 10px; /* Ajusta a posição horizontal */
+    top: 10px;
+    right: 10px;
     color: #d11919;
     font-size: 20px;
     cursor: pointer;

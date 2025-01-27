@@ -19,7 +19,7 @@
     ],
     "foto_escudo": "https://upload.wikimedia.org/wikipedia/en/7/7a/Manchester_United_FC_crest.svg",
     "principal_rival": "Manchester City",
-    "favorito": true
+    "favorito": false
   },
   {
     "id": 2,
@@ -1948,5 +1948,19 @@
     ],
     "foto_escudo": "https://upload.wikimedia.org/wikipedia/pt/2/20/FC_Shakhtar_Donetsk.png",
     "principal_rival": "Dynamo Kiev"
+  },
+  {
+    "id": 126,
+    "nome": "Atalanta",
+    "país": "Itália",
+    "bandeira_pais": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/03/Flag_of_Italy.svg/1200px-Flag_of_Italy.svg.png",
+    "cidade": "Bérgamo",
+    "estadio": "Gewiss Stadium",
+    "apelido": "La Dea",
+    "numero_aproximado_de_torcedores": 3500000,
+    "numero_de_titulos": 1,
+    "titulos": ["Copa da Itália (1)"],
+    "foto_escudo": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/81/Logo_Atalanta_Bergamo.svg/1200px-Logo_Atalanta_Bergamo.svg.png",
+    "principal_rival": "Brescia"
   }
 ]
