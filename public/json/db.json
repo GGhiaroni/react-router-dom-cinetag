@@ -1734,7 +1734,7 @@
   {
     "id": 112,
     "nome": "Sparta Praga",
-    "país": "República Checa",
+    "país": "República Tcheca",
     "bandeira_pais": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cb/Flag_of_the_Czech_Republic.svg/1280px-Flag_of_the_Czech_Republic.svg.png",
     "cidade": "Praga",
     "estadio": "Estádio Generali Arena",
@@ -1742,9 +1742,9 @@
     "numero_aproximado_de_torcedores": 1200000,
     "numero_de_titulos": 35,
     "titulos": [
-      "Campeonato Checo (12)",
-      "Copa da Checa (6)",
-      "Supercopa Checa (4)"
+      "Campeonato Theco (12)",
+      "Copa da Tcheca (6)",
+      "Supercopa Tcheca (4)"
     ],
     "foto_escudo": "https://upload.wikimedia.org/wikipedia/commons/d/dd/AC-Sparta-LOGO2021.svg",
     "principal_rival": "Slovan Liberec",

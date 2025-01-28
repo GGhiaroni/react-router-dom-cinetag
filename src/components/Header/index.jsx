@@ -1,6 +1,7 @@
 import Logomarca from "components/Logomarca";
 import { Link } from "react-router-dom";
 import styled from "styled-components";
+import DropdownMenu from "../DropdownMenu";
 import LinkHeader from "./LinkHeader";
 
 const HeaderEstilizado = styled.header`
@@ -24,6 +25,7 @@ const Header = () => {
       <nav>
         <LinkHeader url="./">Home</LinkHeader>
         <LinkHeader url="./favoritos">Favoritos</LinkHeader>
+        <DropdownMenu />
       </nav>
     </HeaderEstilizado>
   );
