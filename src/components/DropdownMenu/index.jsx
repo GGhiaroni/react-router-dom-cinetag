@@ -9,6 +9,7 @@ const DropdownContainer = styled.div`
 
 const DropdownButton = styled.button`
   background-color: transparent;
+  font-family: "Montserrat";
   color: var(--branco);
   font-size: 18px;
   font-weight: 400;
@@ -34,8 +35,9 @@ const DropdownMenuEstilizado = styled.ul`
   opacity: ${(props) => (props.isOpen ? "1" : "0")};
   visibility: ${(props) => (props.isOpen ? "visible" : "hidden")};
   transform: ${(props) =>
-    props.isOpen ? "translateY(0)" : "translateY(-10px)"};
-  transition: all 0.3s ease;
+    props.isOpen ? "translateY(0) scale(1)" : "translateY(-10px) scale(0.95)"};
+  transform-origin: top;
+  transition: all 0.3s ease-in-out;
   z-index: 10;
 `;
 
