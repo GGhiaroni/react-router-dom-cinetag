@@ -94,6 +94,7 @@ const CardEstilizadoContainer = styled.div`
   justify-content: center;
   padding: 20px;
   background-color: #f5f5f5;
+  border-radius: 10px;
 `;
 
 const CardTime = () => {
