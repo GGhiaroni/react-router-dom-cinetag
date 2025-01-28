@@ -39,6 +39,23 @@ const DropdownMenuEstilizado = styled.ul`
   transform-origin: top;
   transition: all 0.3s ease-in-out;
   z-index: 10;
+
+  max-height: 250px;
+  overflow-y: auto;
+
+  scrollbar-width: thin;
+  scrollbar-color: var(--branco) var(--preto);
+
+  &::-webkit-scrollbar {
+    width: 8px;
+  }
+  &::-webkit-scrollbar-track {
+    background: var(--preto);
+  }
+  &::-webkit-scrollbar-thumb {
+    background-color: var(--branco);
+    border-radius: 10px;
+  }
 `;
 
 const DropdownMenuItem = styled.li`
@@ -69,14 +86,10 @@ const DropdownMenu = () => {
 
   return (
     <DropdownContainer>
-      <DropdownButton
-        onMouseEnter={handleMouseEnter}
-        onMouseLeave={handleMouseLeave}
-        onClick={toggleDropdown}
-      >
+      <DropdownButton onMouseEnter={handleMouseEnter} onClick={toggleDropdown}>
         Ligas
       </DropdownButton>
-      <DropdownMenuEstilizado isOpen={isOpen}>
+      <DropdownMenuEstilizado onMouseLeave={handleMouseLeave} isOpen={isOpen}>
         {ligas.map((liga) => (
           <DropdownMenuItem key={liga}>{liga}</DropdownMenuItem>
         ))}
