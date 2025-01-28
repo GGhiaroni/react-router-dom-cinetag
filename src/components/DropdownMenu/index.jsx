@@ -59,6 +59,9 @@ const DropdownMenu = () => {
 
   const toggleDropdown = () => setIsOpen((estadoAnterior) => !estadoAnterior);
 
+  const handleMouseEnter = () => setIsOpen(true);
+  const handleMouseLeave = () => setIsOpen(false);
+
   useEffect(() => {
     const paises = Array.from(new Set(times.map((time) => time.país)));
     setLigas(paises);
@@ -66,7 +69,13 @@ const DropdownMenu = () => {
 
   return (
     <DropdownContainer>
-      <DropdownButton onClick={toggleDropdown}>Ligas</DropdownButton>
+      <DropdownButton
+        onMouseEnter={handleMouseEnter}
+        onMouseLeave={handleMouseLeave}
+        onClick={toggleDropdown}
+      >
+        Ligas
+      </DropdownButton>
       <DropdownMenuEstilizado isOpen={isOpen}>
         {ligas.map((liga) => (
           <DropdownMenuItem key={liga}>{liga}</DropdownMenuItem>
