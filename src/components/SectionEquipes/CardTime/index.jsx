@@ -81,7 +81,7 @@ const CardEstilizadoContainer = styled.div`
   flex-wrap: wrap;
   gap: 20px;
   justify-content: center;
-  padding: 20px;
+  padding: 20px 5px;
   background-color: #f5f5f5;
   border-radius: 10px;
 `;
