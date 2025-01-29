@@ -11,7 +11,6 @@ export default function TimesProvider({ children }) {
       try {
         const response = await fetch("/json/db.json");
         const data = await response.json();
-        console.log("Dados carregados:", data);
         setTimes(data);
       } catch (error) {
         console.error("Erro ao carregar o JSON:", error);
