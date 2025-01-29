@@ -1,11 +1,12 @@
-import { useEffect, useState } from "react";
 import {
   IoIosArrowRoundForward,
   IoIosHeart,
   IoIosHeartEmpty,
 } from "react-icons/io";
 
+import { useContext } from "react";
 import styled from "styled-components";
+import { TimesContext } from "../../../contextos/Times";
 import useFavoritoContext from "../../../hooks/useFavoritos";
 
 const CardEstilizado = styled.div`
@@ -87,15 +88,8 @@ const CardEstilizadoContainer = styled.div`
 `;
 
 const CardTime = () => {
-  const [times, setTimes] = useState([]);
   const { favorito, adicionarFavoritos } = useFavoritoContext();
-
-  useEffect(() => {
-    fetch("/json/db.json")
-      .then((response) => response.json())
-      .then((data) => setTimes(data))
-      .catch((error) => console.error("Erro ao carregar o JSON:", error));
-  }, []);
+  const { times } = useContext(TimesContext);
 
   return (
     <CardEstilizadoContainer>
