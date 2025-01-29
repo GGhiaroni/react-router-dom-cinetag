@@ -32,10 +32,10 @@ const DropdownMenuEstilizado = styled.ul`
   list-style: none;
   padding: 0;
   margin: 0;
-  opacity: ${(props) => (props.isOpen ? "1" : "0")};
-  visibility: ${(props) => (props.isOpen ? "visible" : "hidden")};
+  opacity: ${(props) => (props.$isOpen ? "1" : "0")};
+  visibility: ${(props) => (props.$isOpen ? "visible" : "hidden")};
   transform: ${(props) =>
-    props.isOpen ? "translateY(0) scale(1)" : "translateY(-10px) scale(0.95)"};
+    props.$isOpen ? "translateY(0) scale(1)" : "translateY(-10px) scale(0.95)"};
   transform-origin: top;
   transition: all 0.3s ease-in-out;
   z-index: 10;
@@ -89,7 +89,7 @@ const DropdownMenu = () => {
       <DropdownButton onMouseEnter={handleMouseEnter} onClick={toggleDropdown}>
         Ligas
       </DropdownButton>
-      <DropdownMenuEstilizado onMouseLeave={handleMouseLeave} isOpen={isOpen}>
+      <DropdownMenuEstilizado onMouseLeave={handleMouseLeave} $isOpen={isOpen}>
         {ligas.map((liga) => (
           <DropdownMenuItem key={liga}>{liga}</DropdownMenuItem>
         ))}
