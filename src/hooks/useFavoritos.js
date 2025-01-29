@@ -1,7 +1,7 @@
 import { useContext } from "react";
 import { FavoritosContext } from "../contextos/Favoritos";
 
-const useFavoritos = () => {
+const useFavoritoContext = () => {
   const { favorito, setFavorito } = useContext(FavoritosContext);
 
   function adicionarFavoritos(novoFavorito) {
@@ -22,4 +22,4 @@ const useFavoritos = () => {
   return { favorito, adicionarFavoritos };
 };
 
-export default useFavoritos;
+export default useFavoritoContext;

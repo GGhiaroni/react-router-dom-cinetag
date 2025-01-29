@@ -1,8 +1,12 @@
 import { useEffect, useState } from "react";
-import { FaRegHeart } from "react-icons/fa";
-import { IoIosArrowRoundForward, IoMdHeart } from "react-icons/io";
+import {
+  IoIosArrowRoundForward,
+  IoIosHeart,
+  IoIosHeartEmpty,
+} from "react-icons/io";
 
 import styled from "styled-components";
+import useFavoritoContext from "../../../hooks/useFavoritos";
 
 const CardEstilizado = styled.div`
   background-color: #ffffff;
@@ -41,21 +45,6 @@ const CardEstilizado = styled.div`
     padding: 10px 0;
     background-color: #333;
     width: 100%;
-  }
-
-  .heart-icon {
-    position: absolute;
-    top: 10px;
-    right: 10px;
-    color: #d11919;
-    font-size: 20px;
-    cursor: pointer;
-    transition: transform 0.2s ease, color 0.2s ease;
-
-    &:hover {
-      transform: scale(1.2);
-      color: #a10f0f;
-    }
   }
 `;
 
@@ -99,7 +88,7 @@ const CardEstilizadoContainer = styled.div`
 
 const CardTime = () => {
   const [times, setTimes] = useState([]);
-  const [favoritos, setFavoritos] = useState([]);
+  const { favorito, adicionarFavoritos } = useFavoritoContext();
 
   useEffect(() => {
     fetch("/json/db.json")
@@ -108,58 +97,55 @@ const CardTime = () => {
       .catch((error) => console.error("Erro ao carregar o JSON:", error));
   }, []);
 
-  const toggleFavorito = (id) => {
-    const novosTimes = times.map((time) => {
-      if (time.id === id) {
-        return {
-          ...time,
-          favorito: !time.favorito,
-        };
-      }
-      return time;
-    });
-    setTimes(novosTimes);
-  };
-
   return (
     <CardEstilizadoContainer>
-      {times.map((time) => (
-        <CardEstilizado key={time.id}>
-          {time.favorito ? (
-            <IoMdHeart
-              size={22}
-              style={{
-                position: "absolute",
-                top: "10px",
-                right: "10px",
-                cursor: "pointer",
-                color: "#d11919",
-                transition: "transform 0.2s ease, color 0.2s ease",
-              }}
-              onClick={() => toggleFavorito(time.id)}
-            />
-          ) : (
-            <FaRegHeart
-              size={18}
-              style={{
-                position: "absolute",
-                top: "10px",
-                right: "10px",
-                cursor: "pointer",
-                transition: "transform 0.2s ease, color 0.2s ease",
-              }}
-              onClick={() => toggleFavorito(time.id)}
-            />
-          )}
-          <img src={time.foto_escudo} alt={`escudo ${time.nome}`} />
-          <h3>{time.nome}</h3>
-          <CardFooter>
-            <button>
-              Saiba mais <IoIosArrowRoundForward size={20} />
-            </button>
-          </CardFooter>
-        </CardEstilizado>
-      ))}
+      {times.map((time) => {
+        const ehFavorito = favorito.some((f) => f.id === time.id);
+
+        const icone = ehFavorito ? (
+          <IoIosHeart
+            size={22}
+            style={{
+              position: "absolute",
+              top: "10px",
+              right: "10px",
+              cursor: "pointer",
+              color: "#d11919",
+              transition: "transform 0.2s ease, color 0.2s ease",
+            }}
+            onClick={() => {
+              adicionarFavoritos(time);
+            }}
+          />
+        ) : (
+          <IoIosHeartEmpty
+            size={18}
+            style={{
+              position: "absolute",
+              top: "10px",
+              right: "10px",
+              cursor: "pointer",
+              transition: "transform 0.2s ease, color 0.2s ease",
+            }}
+            onClick={() => {
+              adicionarFavoritos(time);
+            }}
+          />
+        );
+
+        return (
+          <CardEstilizado key={time.id}>
+            {icone}
+            <img src={time.foto_escudo} alt={`escudo ${time.nome}`} />
+            <h3>{time.nome}</h3>
+            <CardFooter>
+              <button>
+                Saiba mais <IoIosArrowRoundForward size={20} />
+              </button>
+            </CardFooter>
+          </CardEstilizado>
+        );
+      })}
     </CardEstilizadoContainer>
   );
 };
