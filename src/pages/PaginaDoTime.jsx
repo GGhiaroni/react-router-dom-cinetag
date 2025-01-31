@@ -9,8 +9,14 @@ const PaginaDoTimeEstilizado = styled.div`
   font-family: "Poppins";
 `;
 
+const ContainerEscudo = styled.div`
+  display: flex;
+  justify-content: center;
+`;
 const EscudoTime = styled.img`
-  max-width: 50px;
+  width: 100px;
+  align-self: center;
+  padding: 40px 0 20px 0;
 `;
 
 const ContainerLocalidade = styled.div`
@@ -32,10 +38,12 @@ const PaginaDoTime = () => {
   return (
     <PaginaDoTimeEstilizado>
       <Banner />
-      <EscudoTime
-        src={timeEncontrado.foto_escudo}
-        alt={`foto escudo ${timeEncontrado.nome}}`}
-      />
+      <ContainerEscudo>
+        <EscudoTime
+          src={timeEncontrado.foto_escudo}
+          alt={`foto escudo ${timeEncontrado.nome}}`}
+        />
+      </ContainerEscudo>
       <TituloH1Estilizado>{timeEncontrado.nome}</TituloH1Estilizado>
       <ContainerLocalidade>
         <TituloH3Estilizado>
