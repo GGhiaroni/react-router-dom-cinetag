@@ -14,7 +14,7 @@ function AppRoutes() {
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/favoritos" element={<Favoritos />} />
-          <Route path="/time/:id" element={<PaginaDoTime />} />
+          <Route path="/times/:id/:nome" element={<PaginaDoTime />} />
         </Routes>
       </FavoritosProvider>
       <Footer />

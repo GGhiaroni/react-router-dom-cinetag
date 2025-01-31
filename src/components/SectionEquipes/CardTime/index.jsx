@@ -4,6 +4,7 @@ import {
   IoIosHeartEmpty,
 } from "react-icons/io";
 
+import { Link } from "react-router-dom";
 import styled from "styled-components";
 import useFavoritoContext from "../../../hooks/useFavoritos";
 
@@ -75,14 +76,19 @@ const CardFooter = styled.div`
   }
 `;
 
-const CardEstilizadoContainer = styled.div`
+const LinkSaibaMais = styled(Link)`
+  text-decoration: none;
+  color: #0061c8;
   display: flex;
-  flex-wrap: wrap;
-  gap: 20px;
-  justify-content: center;
-  padding: 20px 5px;
-  background-color: #f5f5f5;
-  border-radius: 10px;
+  align-items: center;
+  gap: 5px;
+  transition: gap 0.3s ease, color 0.3s ease;
+  font-weight: 500;
+
+  &:hover {
+    color: #0056b3;
+    gap: 10px;
+  }
 `;
 
 const CardTime = ({ time }) => {
@@ -100,7 +106,7 @@ const CardTime = ({ time }) => {
         cursor: "pointer",
         color: "#d11919",
       }}
-      onClick={() => removerFavoritos(time.id)}
+      onClick={() => adicionarFavoritos(time)}
     />
   ) : (
     <IoIosHeartEmpty
@@ -121,9 +127,9 @@ const CardTime = ({ time }) => {
       <img src={time.foto_escudo} alt={`escudo ${time.nome}`} />
       <h3>{time.nome}</h3>
       <CardFooter>
-        <button>
+        <LinkSaibaMais to={`/times/${time.id}/${time.nome}`}>
           Saiba mais <IoIosArrowRoundForward size={20} />
-        </button>
+        </LinkSaibaMais>
       </CardFooter>
     </CardEstilizado>
   );
