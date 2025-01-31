@@ -29,23 +29,6 @@ const CardEstilizado = styled.div`
     transform: translateY(-5px);
     box-shadow: 0 6px 8px rgba(0, 0, 0, 0.15);
   }
-
-  img {
-    width: 120px;
-    height: 120px;
-    margin-top: 15px;
-    object-fit: contain;
-  }
-
-  h3 {
-    font-size: 18px;
-    font-weight: 600;
-    color: #ffffff;
-    margin-top: 15px;
-    padding: 10px 0;
-    background-color: #333;
-    width: 100%;
-  }
 `;
 
 const CardFooter = styled.div`
@@ -91,6 +74,26 @@ const LinkSaibaMais = styled(Link)`
   }
 `;
 
+const LinkImagem = styled(Link)`
+  width: 100%;
+  img {
+    width: 120px;
+    height: 120px;
+    margin-top: 15px;
+    object-fit: contain;
+  }
+
+  h3 {
+    font-size: 18px;
+    font-weight: 600;
+    color: #ffffff;
+    margin-top: 15px;
+    padding: 10px 0;
+    background-color: #333;
+    width: 100%;
+  }
+`;
+
 const CardTime = ({ time }) => {
   const { favorito, adicionarFavoritos } = useFavoritoContext();
 
@@ -124,8 +127,10 @@ const CardTime = ({ time }) => {
   return (
     <CardEstilizado>
       {icone}
-      <img src={time.foto_escudo} alt={`escudo ${time.nome}`} />
-      <h3>{time.nome}</h3>
+      <LinkImagem to={`/times/${time.id}/${time.nome}`}>
+        <img src={time.foto_escudo} alt={`escudo ${time.nome}`} />
+        <h3>{time.nome}</h3>
+      </LinkImagem>
       <CardFooter>
         <LinkSaibaMais to={`/times/${time.id}/${time.nome}`}>
           Saiba mais <IoIosArrowRoundForward size={20} />
