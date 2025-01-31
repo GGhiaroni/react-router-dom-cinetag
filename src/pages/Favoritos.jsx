@@ -1,10 +1,13 @@
 import styled from "styled-components";
+import Banner from "../components/Banner";
 import CardTime from "../components/SectionEquipes/CardTime";
 import TituloH1Estilizado from "../components/TituloH1";
 import TituloH3Estilizado from "../components/TituloH3";
 import useFavoritoContext from "../hooks/useFavoritos";
 
-const FavoritosEstilizado = styled.div``;
+const FavoritosEstilizado = styled.div`
+  text-align: center;
+`;
 
 const CardEstilizadoContainer = styled.div`
   display: flex;
@@ -12,7 +15,6 @@ const CardEstilizadoContainer = styled.div`
   gap: 20px;
   justify-content: center;
   padding: 20px 5px;
-  background-color: #f5f5f5;
   border-radius: 10px;
 `;
 
@@ -21,6 +23,7 @@ const Favoritos = () => {
 
   return (
     <FavoritosEstilizado>
+      <Banner />
       <TituloH1Estilizado>
         acompanhe tudo sobre seus times favoritos
       </TituloH1Estilizado>
