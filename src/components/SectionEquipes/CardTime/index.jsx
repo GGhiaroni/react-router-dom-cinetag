@@ -4,9 +4,7 @@ import {
   IoIosHeartEmpty,
 } from "react-icons/io";
 
-import { useContext } from "react";
 import styled from "styled-components";
-import { TimesContext } from "../../../contextos/Times";
 import useFavoritoContext from "../../../hooks/useFavoritos";
 
 const CardEstilizado = styled.div`
@@ -87,60 +85,47 @@ const CardEstilizadoContainer = styled.div`
   border-radius: 10px;
 `;
 
-const CardTime = () => {
+const CardTime = ({ time }) => {
   const { favorito, adicionarFavoritos } = useFavoritoContext();
-  const { times } = useContext(TimesContext);
+
+  const ehFavorito = favorito.some((f) => f.id === time.id);
+
+  const icone = ehFavorito ? (
+    <IoIosHeart
+      size={22}
+      style={{
+        position: "absolute",
+        top: "10px",
+        right: "10px",
+        cursor: "pointer",
+        color: "#d11919",
+      }}
+      onClick={() => removerFavoritos(time.id)}
+    />
+  ) : (
+    <IoIosHeartEmpty
+      size={18}
+      style={{
+        position: "absolute",
+        top: "10px",
+        right: "10px",
+        cursor: "pointer",
+      }}
+      onClick={() => adicionarFavoritos(time)}
+    />
+  );
 
   return (
-    <CardEstilizadoContainer>
-      {times.map((time) => {
-        const ehFavorito = favorito.some((f) => f.id === time.id);
-
-        const icone = ehFavorito ? (
-          <IoIosHeart
-            size={22}
-            style={{
-              position: "absolute",
-              top: "10px",
-              right: "10px",
-              cursor: "pointer",
-              color: "#d11919",
-              transition: "transform 0.2s ease, color 0.2s ease",
-            }}
-            onClick={() => {
-              adicionarFavoritos(time);
-            }}
-          />
-        ) : (
-          <IoIosHeartEmpty
-            size={18}
-            style={{
-              position: "absolute",
-              top: "10px",
-              right: "10px",
-              cursor: "pointer",
-              transition: "transform 0.2s ease, color 0.2s ease",
-            }}
-            onClick={() => {
-              adicionarFavoritos(time);
-            }}
-          />
-        );
-
-        return (
-          <CardEstilizado key={time.id}>
-            {icone}
-            <img src={time.foto_escudo} alt={`escudo ${time.nome}`} />
-            <h3>{time.nome}</h3>
-            <CardFooter>
-              <button>
-                Saiba mais <IoIosArrowRoundForward size={20} />
-              </button>
-            </CardFooter>
-          </CardEstilizado>
-        );
-      })}
-    </CardEstilizadoContainer>
+    <CardEstilizado>
+      {icone}
+      <img src={time.foto_escudo} alt={`escudo ${time.nome}`} />
+      <h3>{time.nome}</h3>
+      <CardFooter>
+        <button>
+          Saiba mais <IoIosArrowRoundForward size={20} />
+        </button>
+      </CardFooter>
+    </CardEstilizado>
   );
 };
 

@@ -1,13 +1,13 @@
 import Banner from "components/Banner";
 import HeroSection from "components/HeroSection";
-import SectionEquipes from "../components/SectionEquipes";
+import ListaTimes from "../components/SectionEquipes/ListaTimes";
 
 const Home = () => {
   return (
     <>
       <Banner />
       <HeroSection />
-      <SectionEquipes />
+      <ListaTimes />
     </>
   );
 };
