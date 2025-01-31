@@ -76,6 +76,7 @@ const LinkSaibaMais = styled(Link)`
 
 const LinkImagem = styled(Link)`
   width: 100%;
+  text-decoration: none;
   img {
     width: 120px;
     height: 120px;
