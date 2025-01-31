@@ -9,6 +9,10 @@ const PaginaDoTimeEstilizado = styled.div`
   font-family: "Poppins";
 `;
 
+const EscudoTime = styled.img`
+  max-width: 50px;
+`;
+
 const ContainerLocalidade = styled.div`
   display: flex;
   align-items: center;
@@ -28,16 +32,31 @@ const PaginaDoTime = () => {
   return (
     <PaginaDoTimeEstilizado>
       <Banner />
+      <EscudoTime
+        src={timeEncontrado.foto_escudo}
+        alt={`foto escudo ${timeEncontrado.nome}}`}
+      />
       <TituloH1Estilizado>{timeEncontrado.nome}</TituloH1Estilizado>
       <ContainerLocalidade>
         <TituloH3Estilizado>
           📍{timeEncontrado.cidade}, {timeEncontrado.país}
         </TituloH3Estilizado>
-        <img src={timeEncontrado.bandeira_pais} />
+        <img
+          src={timeEncontrado.bandeira_pais}
+          alt={`bandeira ${timeEncontrado.bandeira_pais}`}
+        />
       </ContainerLocalidade>
-      👥{" "}
-      {timeEncontrado.numero_aproximado_de_torcedores.toLocaleString("pt-BR")}{" "}
-      torcedores
+      <TituloH3Estilizado>
+        {" "}
+        👥{" "}
+        {timeEncontrado.numero_aproximado_de_torcedores.toLocaleString(
+          "pt-BR"
+        )}{" "}
+        torcedores
+      </TituloH3Estilizado>
+      <TituloH3Estilizado>
+        apelido: {`${timeEncontrado.apelido}`}
+      </TituloH3Estilizado>
     </PaginaDoTimeEstilizado>
   );
 };
