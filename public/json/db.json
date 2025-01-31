@@ -61,7 +61,8 @@
     ],
     "foto_escudo": "https://upload.wikimedia.org/wikipedia/en/5/53/Arsenal_FC.svg",
     "principal_rival": "Tottenham Hotspur",
-    "favorito": false
+    "favorito": false,
+    "corPrincipal": "#EF0106"
   },
   {
     "id": 4,
