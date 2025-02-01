@@ -5,6 +5,7 @@ import FavoritosProvider from "./contextos/Favoritos";
 import Favoritos from "./pages/Favoritos";
 import Home from "./pages/Home";
 import PaginaDoTime from "./pages/PaginaDoTime";
+import TimePorLiga from "./pages/TimePorLiga";
 
 function AppRoutes() {
   return (
@@ -15,6 +16,7 @@ function AppRoutes() {
           <Route path="/" element={<Home />} />
           <Route path="/favoritos" element={<Favoritos />} />
           <Route path="/times/:id/:nome" element={<PaginaDoTime />} />
+          <Route path="/times/:liga" element={<TimePorLiga />} />
         </Routes>
       </FavoritosProvider>
       <Footer />
