@@ -1023,7 +1023,7 @@
   {
     "id": 57,
     "nome": "Ajax",
-    "país": "Países Baixos",
+    "país": "Holanda",
     "bandeira_pais": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/20/Flag_of_the_Netherlands.svg/1200px-Flag_of_the_Netherlands.svg.png",
     "cidade": "Amsterdã",
     "estadio": "Johan Cruijff Arena",
@@ -1043,7 +1043,7 @@
   {
     "id": 58,
     "nome": "PSV Eindhoven",
-    "país": "Países Baixos",
+    "país": "Holanda",
     "bandeira_pais": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/20/Flag_of_the_Netherlands.svg/1200px-Flag_of_the_Netherlands.svg.png",
     "cidade": "Eindhoven",
     "estadio": "Philips Stadion",
@@ -1059,7 +1059,7 @@
   {
     "id": 59,
     "nome": "Feyenoord",
-    "país": "Países Baixos",
+    "país": "Holanda",
     "bandeira_pais": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/20/Flag_of_the_Netherlands.svg/1200px-Flag_of_the_Netherlands.svg.png",
     "cidade": "Roterdã",
     "estadio": "De Kuip",
@@ -1075,7 +1075,7 @@
   {
     "id": 60,
     "nome": "AZ Alkmaar",
-    "país": "Países Baixos",
+    "país": "Holanda",
     "bandeira_pais": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/20/Flag_of_the_Netherlands.svg/1200px-Flag_of_the_Netherlands.svg.png",
     "cidade": "Alkmaar",
     "estadio": "AFAS Stadion",
@@ -1091,7 +1091,7 @@
   {
     "id": 61,
     "nome": "Utrecht",
-    "país": "Países Baixos",
+    "país": "Holanda",
     "bandeira_pais": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/20/Flag_of_the_Netherlands.svg/1200px-Flag_of_the_Netherlands.svg.png",
     "cidade": "Utrecht",
     "estadio": "Stadion Galgenwaard",
