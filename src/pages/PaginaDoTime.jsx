@@ -68,6 +68,23 @@ const PaginaDoTime = () => {
     color: ${timeEncontrado.corPrincipal};
   `;
 
+  const ListaTitulos = styled.ul`
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  `;
+
+  const TituloItem = styled.li`
+    font-size: 16px;
+    color: #444;
+    padding: 5px 0;
+  `;
+
+  const InfoCardTitulos = styled(InfoCard)`
+    flex-direction: column;
+    align-items: flex-start;
+  `;
+
   return (
     <PaginaDoTimeEstilizado>
       <Banner />
@@ -118,6 +135,19 @@ const PaginaDoTime = () => {
           <Label>Principal rival:</Label> {timeEncontrado.principal_rival}
         </TextoInfo>
       </InfoCard>
+      <InfoCardTitulos>
+        <div style={{ display: "flex", alignItems: "center", gap: "10px" }}>
+          <Icon>🏆</Icon>
+          <TextoInfo>
+            <Label>Títulos ({timeEncontrado.numero_de_titulos}):</Label>
+          </TextoInfo>
+        </div>
+        <ListaTitulos>
+          {timeEncontrado.titulos.map((titulo, index) => (
+            <TituloItem key={index}>🥇 {titulo}</TituloItem>
+          ))}
+        </ListaTitulos>
+      </InfoCardTitulos>
     </PaginaDoTimeEstilizado>
   );
 };
