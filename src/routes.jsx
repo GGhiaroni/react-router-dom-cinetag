@@ -1,9 +1,7 @@
-import Footer from "components/Footer";
-import Header from "components/Header";
 import { BrowserRouter, Route, Routes } from "react-router-dom";
-import FavoritosProvider from "./contextos/Favoritos";
 import Favoritos from "./pages/Favoritos";
 import Home from "./pages/Home";
+import PaginaBase from "./pages/PaginaBase";
 import PaginaDeErro from "./pages/PaginaDeErro";
 import PaginaDoTime from "./pages/PaginaDoTime";
 import TimePorLiga from "./pages/TimePorLiga";
@@ -11,17 +9,15 @@ import TimePorLiga from "./pages/TimePorLiga";
 function AppRoutes() {
   return (
     <BrowserRouter>
-      <Header />
-      <FavoritosProvider>
-        <Routes>
-          <Route path="/" element={<Home />} />
-          <Route path="/favoritos" element={<Favoritos />} />
-          <Route path="/times/:id/:nome" element={<PaginaDoTime />} />
+      <Routes>
+        <Route path="/" element={<PaginaBase />}>
+          <Route index element={<Home />} />
+          <Route path="favoritos" element={<Favoritos />} />
+          <Route path="times/:id/:nome" element={<PaginaDoTime />} />
           <Route path="/times/:liga" element={<TimePorLiga />} />
           <Route path="*" element={<PaginaDeErro />} />
-        </Routes>
-      </FavoritosProvider>
-      <Footer />
+        </Route>
+      </Routes>
     </BrowserRouter>
   );
 }
