@@ -11,7 +11,7 @@ import useFavoritoContext from "../../../hooks/useFavoritos";
 const CardEstilizado = styled.div`
   background-color: #ffffff;
   width: 250px;
-  height: 250px;
+  height: 270px;
   padding: 0;
   border-radius: 10px;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
@@ -39,6 +39,7 @@ const CardFooter = styled.div`
   justify-content: center;
   align-items: center;
   width: 100%;
+  height: 100%;
   border-top: 1px solid #ddd;
 
   button {

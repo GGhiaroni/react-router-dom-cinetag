@@ -2,6 +2,7 @@ import { useParams } from "react-router-dom";
 import styled from "styled-components";
 import listaDeTimes from "../../public/json/db.json";
 import Banner from "../components/Banner";
+import CardTime from "../components/SectionEquipes/CardTime";
 import TituloH1Estilizado from "../components/TituloH1";
 
 const TimePorLigaEstilizado = styled.div`
@@ -20,18 +21,6 @@ const ContainerTimes = styled.div`
   justify-content: center;
   gap: 20px;
   padding: 20px;
-`;
-
-const CardTime = styled.div`
-  background: #fff;
-  width: 300px;
-  padding: 20px;
-  border-radius: 10px;
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  text-align: center;
 `;
 
 const EscudoTime = styled.img`
@@ -100,6 +89,11 @@ const TimePorLiga = () => {
           {times[0].país.slice(1)}
         </TituloH1Estilizado>
       </TituloEBandeira>
+      <ContainerTimes>
+        {times.map((time) => (
+          <CardTime key={time.id} time={time} />
+        ))}
+      </ContainerTimes>
     </TimePorLigaEstilizado>
   );
 };
