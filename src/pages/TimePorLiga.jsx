@@ -59,21 +59,28 @@ const TituloEBandeira = styled.div`
   flex-direction: column;
   justify-content: center;
   img {
-    width: 20px;
+    width: 30px;
   }
+
   h1 {
     font-size: 50px;
     position: relative;
     text-align: center;
+  }
 
-    &::after {
-      content: "";
-      display: block;
-      width: 60%;
-      height: 4px;
-      background-color: #000000;
-      margin: 8px auto 0;
-    }
+  h1 span {
+    position: relative;
+    display: inline-block;
+  }
+
+  h1 span::after {
+    content: "";
+    position: absolute;
+    bottom: -5px;
+    left: 0;
+    width: 20px;
+    height: 4px;
+    background-color: #000;
   }
 `;
 
@@ -88,8 +95,9 @@ const TimePorLiga = () => {
       <Banner />
       <TituloEBandeira>
         <img src={times[0].bandeira_pais} />
-        <TituloH1Estilizado style={{ fontSize: "50px" }}>
-          {times[0].país}
+        <TituloH1Estilizado>
+          <span>{times[0].país.charAt(0)}</span>
+          {times[0].país.slice(1)}
         </TituloH1Estilizado>
       </TituloEBandeira>
     </TimePorLigaEstilizado>
