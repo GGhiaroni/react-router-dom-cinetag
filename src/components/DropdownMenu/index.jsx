@@ -97,7 +97,7 @@ const DropdownMenu = () => {
       </DropdownButton>
       <DropdownMenuEstilizado onMouseLeave={handleMouseLeave} $isOpen={isOpen}>
         {ligas.map((liga) => (
-          <LinkPaisDropdown to={`/times/${liga.toLowerCase()}`}>
+          <LinkPaisDropdown key={liga} to={`/times/${liga.toLowerCase()}`}>
             <DropdownMenuItem key={liga}>{liga}</DropdownMenuItem>
           </LinkPaisDropdown>
         ))}

@@ -4,6 +4,7 @@ import { BrowserRouter, Route, Routes } from "react-router-dom";
 import FavoritosProvider from "./contextos/Favoritos";
 import Favoritos from "./pages/Favoritos";
 import Home from "./pages/Home";
+import PaginaDeErro from "./pages/PaginaDeErro";
 import PaginaDoTime from "./pages/PaginaDoTime";
 import TimePorLiga from "./pages/TimePorLiga";
 
@@ -17,6 +18,7 @@ function AppRoutes() {
           <Route path="/favoritos" element={<Favoritos />} />
           <Route path="/times/:id/:nome" element={<PaginaDoTime />} />
           <Route path="/times/:liga" element={<TimePorLiga />} />
+          <Route path="*" element={<PaginaDeErro />} />
         </Routes>
       </FavoritosProvider>
       <Footer />
