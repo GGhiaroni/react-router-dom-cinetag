@@ -1,4 +1,5 @@
 import { useEffect, useState } from "react";
+import { Link } from "react-router-dom";
 import styled from "styled-components";
 import times from "/public/json/db.json";
 
@@ -70,6 +71,11 @@ const DropdownMenuItem = styled.li`
   }
 `;
 
+const LinkPaisDropdown = styled(Link)`
+  cursor: pointer;
+  text-decoration: none;
+`;
+
 const DropdownMenu = () => {
   const [ligas, setLigas] = useState([]);
   const [isOpen, setIsOpen] = useState(false);
@@ -91,7 +97,9 @@ const DropdownMenu = () => {
       </DropdownButton>
       <DropdownMenuEstilizado onMouseLeave={handleMouseLeave} $isOpen={isOpen}>
         {ligas.map((liga) => (
-          <DropdownMenuItem key={liga}>{liga}</DropdownMenuItem>
+          <LinkPaisDropdown to={`/times/${liga.toLowerCase()}`}>
+            <DropdownMenuItem key={liga}>{liga}</DropdownMenuItem>
+          </LinkPaisDropdown>
         ))}
       </DropdownMenuEstilizado>
     </DropdownContainer>
